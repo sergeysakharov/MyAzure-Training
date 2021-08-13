@@ -18,10 +18,10 @@ provider "azurerm" {
 
 # create resource group
 resource "azurerm_resource_group" "az-fd-prod1"{
-    name = "az-fd-prod-1"
+    name = "az-fd-prod-1-1"
     location = "Westus"
 }
 resource "azurerm_resource_group" "az-fd-prod2"{
-    name = "az-fd-prod-2"
+    name = "az-fd-prod-2-2"
     location = "Westus"
 }
