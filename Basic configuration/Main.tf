@@ -16,9 +16,6 @@ provider "azurerm" {
   features {}
 }
 
-
-
-
 resource "azurerm_resource_group" "az_fd_prod" {
     location = "West Europe"
     name     = "az-fd-prod1"
@@ -29,3 +26,4 @@ resource "azurerm_resource_group" "az_fd_prod" {
         "b2b-role"    = "frontdoor-prod"
     }
 }
+
